@@ -6,7 +6,7 @@ get '/' do
 end
 
 get '/*.css' do
-  scss params[:splat][0].to_sym rescue pass
+  scss params[:splat][0].to_sym
 end
 
 get '/*' do
