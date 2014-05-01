@@ -19,6 +19,8 @@ Wireframes should be written in the `views` directory. Routes correspond directl
 
 [Slim](http://slim-lang.com/) and [SCSS](http://sass-lang.com/) are used by default but can be changed easily.
 
+Favicon is a screenshot from [FontAwesome](http://fortawesome.github.io/Font-Awesome/icon/heart/).
+
 ## MIT License
 
 Copyright (c) 2014 Zach Ahn
