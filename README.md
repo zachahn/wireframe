@@ -1,12 +1,23 @@
 # Wireframe
 
-A set of useful utilities to create wireframes
+A set of useful utilities to create live wireframes
+
+## Installation and Usage
+
+Wireframes should be written in the `views` directory. Routes correspond directly to a view. Editing views should update immediately when refreshed.
+
+    $ git pull https://github.com/zachahn/wireframe.git
+    $ cd wireframe
+    $ bundle install
+    $ rackup # go to http://localhost:9292
 
 ## Libraries Included
 
-[redacted font](https://github.com/christiannaths/Redacted-Font) (OFL)
-[fixie.js](https://github.com/ryhan/fixie) (MIT)
-[holder.js](https://github.com/imsky/holder) (MIT)
+- [Redacted](https://github.com/christiannaths/Redacted-Font) (OFL)
+- [Fixie.js](https://github.com/ryhan/fixie) (MIT)
+- [Holder.js](https://github.com/imsky/holder) (MIT)
+
+[Slim](http://slim-lang.com/) and [SCSS](http://sass-lang.com/) are used by default but can be changed easily.
 
 ## MIT License
 
