@@ -16,10 +16,11 @@ Wireframes should be written in the `views` directory. Routes correspond directl
 - [Redacted](https://github.com/christiannaths/Redacted-Font) (OFL)
 - [Fixie.js](https://github.com/ryhan/fixie) (MIT)
 - [Holder.js](https://github.com/imsky/holder) (MIT)
+- [Foundation 5](https://github.com/zurb/foundation) (MIT)
 
 [Slim](http://slim-lang.com/) and [SCSS](http://sass-lang.com/) are used by default but can be changed easily.
 
-Favicon is a screenshot from [FontAwesome](http://fortawesome.github.io/Font-Awesome/icon/heart/).
+Favicon is taken from [FontAwesome](http://fortawesome.github.io/Font-Awesome/icon/heart/).
 
 ## MIT License
 
