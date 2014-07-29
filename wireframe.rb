@@ -1,6 +1,8 @@
 require 'bundler'
 Bundler.require
 
+register Sinatra::AssetPipeline
+
 get '/' do
   redirect url('/home')
 end
