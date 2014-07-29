@@ -11,6 +11,7 @@ html
 
   body.fixie
     == yield
+    script(src=url('/jquery-1.11.1.min.js'))
     == javascript_tag 'foundation'
     script(src=url('/holder.js'))
     script(src=url('/fixie.js'))
