@@ -4,10 +4,14 @@ html
     link(rel='shortcut icon' href=url('/favicon.ico') type='image/x-icon')
     link(rel='icon' href=url('/favicon.ico') type='image/x-icon')
     link(rel='stylesheet' type='text/css' href=url('/wf-redacted/stylesheet.css'))
-    link(rel='stylesheet' type='text/css' href=url('/screen.css'))
 
-  body
+    == stylesheet_tag 'application'
+    == javascript_tag 'vendor/modernizr'
+    / == javascript_tag 'application'
+
+  body.fixie
     == yield
+    == javascript_tag 'foundation'
     script(src=url('/holder.js'))
     script(src=url('/fixie.js'))
     script fixie.setImagePlaceholder('holder.js/${w}x${h}').init()
